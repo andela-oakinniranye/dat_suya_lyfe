@@ -7,10 +7,12 @@ gem 'rails-api'
 
 gem 'pry', group: :development
 
-gem 'spring', :group => :development
+gem 'spring', group: :development
 
 
-gem 'sqlite3'
+gem 'pg'
+
+gem 'rails_12factor', group: :production
 
 
 
