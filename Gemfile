@@ -5,16 +5,16 @@ gem 'rails', '4.2.3'
 
 gem 'rails-api'
 
-gem 'pry', group: :development
+group: :development do
+  gem 'pry'
+  gem 'spring'
+  gem 'sqlite3'
+end
 
-gem 'spring', group: :development
-
-gem 'sqlite3', group: :development
-
-gem 'pg', group: :production
-
-gem 'rails_12factor', group: :production
-
+group: :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 
 # To use ActiveModel has_secure_password
