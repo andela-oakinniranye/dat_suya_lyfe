@@ -9,8 +9,9 @@ gem 'pry', group: :development
 
 gem 'spring', group: :development
 
+gem 'sqlite3', group: :development
 
-gem 'pg'
+gem 'pg', group: :production
 
 gem 'rails_12factor', group: :production
 
