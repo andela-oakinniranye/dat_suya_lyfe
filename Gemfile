@@ -5,13 +5,13 @@ gem 'rails', '4.2.3'
 
 gem 'rails-api'
 
-group: :development do
+group :development, :test do
   gem 'pry'
   gem 'spring'
   gem 'sqlite3'
 end
 
-group: :production do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
